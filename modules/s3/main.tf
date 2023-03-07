@@ -1,27 +1,11 @@
 resource "aws_s3_bucket" "bucket" {
-    bucket = var.bucketname
-     object_lock_enabled = true
-    # object_lock_configuration {
-    #  
-    # }
-    
-    tags = {
-        Name = "${var.aws_projectname}terraformstatestore"
-    }
-
-    
+  bucket              = var.bucketname
+  object_lock_enabled = true
+  tags = {
+    Name = "${var.aws_projectname}terraformstatestore"
+  }
 }
 
-# resource "aws_s3_bucket_object_lock_configuration" "example" {
-#   bucket = aws_s3_bucket.example.id
-
-#   rule {
-#     default_retention {
-#       mode = "COMPLIANCE"
-#       days = 5
-#     }
-#   }
-# }
 
 resource "aws_s3_bucket_versioning" "s3versioning" {
   bucket = aws_s3_bucket.bucket.id
@@ -42,7 +26,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "awss3encryption" 
 }
 
 resource "aws_kms_key" "mykmsbucketkey" {
-  description             = "This key is used to encrypt bucket objects"
+  description = "This key is used to encrypt bucket objects"
 }
 
 

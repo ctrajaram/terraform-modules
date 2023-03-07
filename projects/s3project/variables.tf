@@ -10,5 +10,5 @@ variable "aws_projectname" {
 variable "bucketname" {
   type        = string
   description = "This is the bucket name"
-  
+
 }
