@@ -1,4 +1,4 @@
-# ctr-terraform-modules
+# sekar-terraform-modules
 
 Introduction
 ************
