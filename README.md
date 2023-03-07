@@ -11,7 +11,4 @@ The project also contains 4 projects named vpc and s3 which in turn use the vpc 
 
 The gitignore files have been coded to include .terraform folder that downloads the provider plugins, terraform state that may contain sensitive information and tfvars file that may contain sensitive information also.This prevents these files from being tracked in the version control system.
 
-Out of Scope
-************
 
-The subnets, route tables code have been commented out in the vpc project as that was not needed to illustrate the best practices with state locking and s3 backend for storing state when coding Terraform.That code has been kept in the vpc.tf project file however has been commented out so that it can be added in to the scope anytime.
