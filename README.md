@@ -14,4 +14,4 @@ The project also contains 4 projects named vpc and s3 which in turn use the vpc 
 Out of Scope
 ************
 
-The subnets, route tables code have been commented out in the vpc project as that was not needed to illustrate the best practices when coding Terraform.
+The subnets, route tables code have been commented out in the vpc project as that was not needed to illustrate the best practices with state locking and s3 backend for storing state when coding Terraform.That code has been kept in the vpc.tf project file however has been commented out.
