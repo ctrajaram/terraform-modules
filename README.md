@@ -1,4 +1,4 @@
-# Terraform Modules
+# terraform-modules
 
 Description
 ************
