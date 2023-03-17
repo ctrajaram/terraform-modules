@@ -3,7 +3,7 @@
 Description
 ************
 
-This repository contains Terraform code written according to best practices and used Terraform modules, remote s3 backedn and dynamo db state locking. Using a module based approach in Terraform promotes code reusuability and embracing DRY - DO NOT REPEAT YOURSELF software coding principle.
+This repository contains Terraform code written according to best practices and uses Terraform modules, remote s3 backend and dynamo db state locking. Using a module based approach in Terraform promotes code reusuability and embraces DRY - DO NOT REPEAT YOURSELF software coding principle.
 
 The project conssist of 3 modules namely vpc , s3 and dynamodb.
 
