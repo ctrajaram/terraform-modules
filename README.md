@@ -12,3 +12,5 @@ The project also contains 3projects named vpc , s3 and dynamodb which in turn us
 The gitignore files have been coded to include .terraform folder that downloads the provider plugins, terraform state that may contain sensitive information and tfvars file that may contain sensitive information also.This prevents these files from being tracked in the version control system.
 
 
+Note: Several individual branches , pull requests etc were created and approved and then merged back to the main branch. For clarity, just the main branch was kept for code illustration purposes.
+
