@@ -7,7 +7,7 @@ This repository contains Terraform code written according to best practices and 
 
 The project conssist of 3 modules namely vpc , s3 and dynamodb.
 
-The project also contains 4 projects named vpc and s3 which in turn use the vpc and s3 module code.
+The project also contains 3projects named vpc , s3 and dynamodb which in turn use the vpc ,  s3 and dynamodb module code.
 
 The gitignore files have been coded to include .terraform folder that downloads the provider plugins, terraform state that may contain sensitive information and tfvars file that may contain sensitive information also.This prevents these files from being tracked in the version control system.
 
