@@ -1,4 +1,4 @@
-# sekar-terraform-modules
+# Terraform Modules
 
 Description
 ************
